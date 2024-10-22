@@ -57,7 +57,7 @@ body {
 	margin: 0px 0px;
 }
 
-.images {
+main {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -65,10 +65,39 @@ body {
     flex-wrap: wrap;
     align-items: center;
 }
-	.cupcakes {
+	main > .cupcakes {
 		height: auto; 
 		width: 82%;
 	}
+	
+h2 {
+	margin-top: 50px;
+}
+
+main > p {
+	/*top right bottom left*/
+	margin: 0px 20px 30px 20px;
+}
+
+.row-of-three { 
+	display: flex; 
+	width: 61%;
+}
+	.card {
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		margin-inline-end: 0px;
+		
+	}
+		.card img{
+			width: 95%; 
+			height: auto;
+			margin-right: 37px;
+			text-align: center;
+		}
+		.card img.cake {
+			
+		}
 
 
 /*******************************************************************
